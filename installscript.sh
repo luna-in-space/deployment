@@ -7,5 +7,7 @@ cp -i ~/dotfiles/kitty.conf ~/.config/kitty/kitty.conf && cp -i ~/dotfiles/xmona
 cp ~/dotfiles/settings.ini ~/.config/gtk-3.0/settings.ini
 git clone https://github.com/v1gg123/wallpapers/
 sudo cp ~/wallpapers/* /usr/share/wallpapers/
+nitrogen --set-scaled /usr/share/wallpapers/Finland\ Uma/contents/images/6240x4160.jpg --save
+
 echo "log out and login to XMonad"
 
