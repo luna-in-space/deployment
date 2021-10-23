@@ -4,6 +4,8 @@ sudo apt install xmonad vim kitty git nitrogen dmenu lxappearance arc-theme mint
 rm -rf ~/dotfiles
 git clone https://github.com/v1gg123/dotfiles
 cp -i ~/dotfiles/kitty.conf ~/.config/kitty/kitty.conf && cp -i ~/dotfiles/xmonad.hs ~/.xmonad/xmonad.hs && cp ~/dotfiles/.bashrc ~/.config/bash/bashrc 
+cp ~/dotfiles/settings.ini ~/.config/gtk-3.0/settings.ini
+git clone https://github.com/v1gg123/wallpapers/
+sudo cp ~/wallpapers/* /usr/share/wallpapers/
 echo "log out and login to XMonad"
-lxappearance
 
